@@ -1,17 +1,41 @@
-// One method per module
 function schoolSlides() {
-  return ['00-school/00-TITLE.md', '00-school/speaker-jef.md'];
+  return [
+    '00-school/00-Presentation.md',
+    '00-school/01-speaker-thomas.md'
+  ];
 }
 
-function introSlides() {
-  return ['intro/00-TITLE.md'];
+function schoolIntro() {
+  let slides = [];
+  for (let i = 48; i < 51; i++) {
+    slides.push("01-intro/" + ('0' + String.fromCharCode(i)).substr(-2) + "-Introduction.md");
+  }
+  return slides;
+}
+
+function schooldWebAnalyse() {
+  let slides = [];
+  for (let i = 48; i < 52; i++) {
+    slides.push("02-web-analyse/" + ('0' + String.fromCharCode(i)).substr(-2) + "-Web-Analyse.md");
+  }
+  return slides;
+}
+
+function schoolGoogleAnalytics() {
+  let slides = [];
+  for (let i = 48; i < 52; i++) {
+    slides.push("03-google-analytics/" + ('0' + String.fromCharCode(i)).substr(-2) + "-Google-Analytics.md");
+  }
+  return slides;
 }
 
 function formation() {
   return [
     //
-    ...schoolSlides(), //
-    ...introSlides() //
+    ...schoolSlides(),
+    ...schoolIntro(),
+    ...schooldWebAnalyse(),
+    ...schoolGoogleAnalytics(),
   ].map(slidePath => {
     return { path: slidePath };
   });

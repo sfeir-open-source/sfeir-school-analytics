@@ -1,17 +1,12 @@
-<!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="xxx" -->
+<!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="Analytics" -->
 
 # **Welcome to SFEIR School**
 
-## **XXX 200**
+## **Web Analytics 100**
 
 ##==##
 
 <!-- .slide: class="school-presentation" -->
-
-<div class="wifi">
-    <span class="key">wifi:</span><span>SSID</span><br>
-    <span class="key">mdp:</span><span>PWD_WIFI</span>
-</div>
 
 ##==##
 
@@ -26,4 +21,4 @@ Tour de table ...
 
 **Feuille de présence (obligatoire)** <!-- .element: class="center" -->
 
-https://bit.ly/sfeir-xxx <!-- .element: class="center" -->
+https://bit.ly/sfeir-Analytics <!-- .element: class="center" -->
