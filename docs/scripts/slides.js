@@ -23,7 +23,7 @@ function schooldWebAnalyse() {
 
 function schoolGoogleAnalytics() {
   let slides = [];
-  for (let i = 48; i < 51; i++) {
+  for (let i = 48; i < 53; i++) {
     slides.push("03-google-analytics/" + ('0' + String.fromCharCode(i)).substr(-2) + "-Google-Analytics.md");
   }
   return slides;
