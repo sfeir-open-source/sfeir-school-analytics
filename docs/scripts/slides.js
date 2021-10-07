@@ -23,8 +23,16 @@ function schooldWebAnalyse() {
 
 function schoolGoogleAnalytics() {
   let slides = [];
-  for (let i = 48; i < 52; i++) {
+  for (let i = 48; i < 51; i++) {
     slides.push("03-google-analytics/" + ('0' + String.fromCharCode(i)).substr(-2) + "-Google-Analytics.md");
+  }
+  return slides;
+}
+
+function schoolConfiguration() {
+  let slides = [];
+  for (let i = 48; i < 52; i++) {
+    slides.push("04-configuration/" + ('0' + String.fromCharCode(i)).substr(-2) + "-Configuration.md");
   }
   return slides;
 }
@@ -36,6 +44,7 @@ function formation() {
     ...schoolIntro(),
     ...schooldWebAnalyse(),
     ...schoolGoogleAnalytics(),
+    ...schoolConfiguration(),
   ].map(slidePath => {
     return { path: slidePath };
   });

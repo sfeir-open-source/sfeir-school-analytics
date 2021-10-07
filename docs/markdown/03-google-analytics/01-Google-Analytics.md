@@ -1,7 +1,24 @@
 <!-- .slide: class="two-column-layout"-->
 
-# Configuration
+# Pourquoi choisir Google Analytics ?
 
-Créer et configurer un compte [Google Analytics](https://analytics.google.com/analytics/web/?hl=en)
+##==##
 
-![](./assets/images/google_analytics_create_account.png)
+# Pourquoi choisir Google Analytics ?
+
+- C'est gratuit !
+
+##==##
+
+# Pourquoi choisir Google Analytics ?
+
+- C'est gratuit !
+- Une grande communauté
+
+##==##
+
+# Pourquoi choisir Google Analytics ?
+
+- C'est gratuit !
+- Une grande communauté
+- Le passage à la version payante donne accès à toute la suite 360
